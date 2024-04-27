@@ -7,17 +7,20 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using Ultimus.Models;
-namespace Ultimus.Controllers
+public class HomeController : Controller
 {
-    public class HomeController : Controller
-    {
-        private readonly UltimusEntities db = new UltimusEntities();
+    private UltimusEntities db = new UltimusEntities();
 
-        // GET: Home
-        public ActionResult Index()
+    // GET: Home
+    public ActionResult Index(int? categoryID)
+    {
+        IQueryable<Product> products = db.Products.Include(p => p.Category);
+
+        if (categoryID.HasValue)
         {
-            var products = db.Products.ToList();
-            return View(products);
+            products = products.Where(p => p.CategoryID == categoryID);
         }
+
+        return View(products.ToList());
     }
 }
