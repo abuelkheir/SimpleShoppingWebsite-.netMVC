@@ -61,6 +61,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -97,6 +98,24 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\style.css" />
+    <Content Include="Content\Assets\Photos\Laptops\1.jpg" />
+    <Content Include="Content\Assets\Photos\Laptops\2.jpg" />
+    <Content Include="Content\Assets\Photos\Laptops\3.jpg" />
+    <Content Include="Content\Assets\Photos\Laptops\4.jpg" />
+    <Content Include="Content\Assets\Photos\Laptops\5.jpg" />
+    <Content Include="Content\Assets\Photos\Laptops\6.jpg" />
+    <Content Include="Content\Assets\Photos\Mobiles-Tablets\1.jpg" />
+    <Content Include="Content\Assets\Photos\Mobiles-Tablets\2.jpg" />
+    <Content Include="Content\Assets\Photos\Mobiles-Tablets\3.jpg" />
+    <Content Include="Content\Assets\Photos\Mobiles-Tablets\4.jpg" />
+    <Content Include="Content\Assets\Photos\Mobiles-Tablets\5.jpg" />
+    <Content Include="Content\Assets\Photos\Mobiles-Tablets\6.jpg" />
+    <Content Include="Content\Assets\Photos\TV\1.jpg" />
+    <Content Include="Content\Assets\Photos\TV\2.jpg" />
+    <Content Include="Content\Assets\Photos\TV\3.jpg" />
+    <Content Include="Content\Assets\Photos\TV\4.jpg" />
+    <Content Include="Content\Assets\Photos\TV\5.jpg" />
+    <Content Include="Content\Assets\Photos\TV\6.jpg" />
     <Content Include="Content\vendor\bootstrap\css\bootstrap-grid.css" />
     <Content Include="Content\vendor\bootstrap\css\bootstrap-grid.min.css" />
     <Content Include="Content\vendor\bootstrap\css\bootstrap-reboot.css" />

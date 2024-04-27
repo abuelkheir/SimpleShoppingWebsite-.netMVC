@@ -12,6 +12,7 @@
     <EntitySetMapping Name="Products">
       <EntityTypeMapping TypeName="UltimusModel.Product">
         <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="ProductImageURL" ColumnName="ProductImageURL" />
           <ScalarProperty Name="ProductID" ColumnName="ProductID" />
           <ScalarProperty Name="ProductName" ColumnName="ProductName" />
           <ScalarProperty Name="ProductDescription" ColumnName="ProductDescription" />

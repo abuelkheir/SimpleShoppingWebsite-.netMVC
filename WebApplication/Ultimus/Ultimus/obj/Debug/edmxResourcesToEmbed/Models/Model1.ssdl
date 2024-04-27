@@ -17,6 +17,7 @@
     <Property Name="ProductPrice" Type="decimal" Precision="10" Scale="2" />
     <Property Name="ProductRating" Type="int" />
     <Property Name="CategoryID" Type="int" />
+    <Property Name="ProductImageURL" Type="varchar" MaxLength="255" />
   </EntityType>
   <Association Name="FK__Products__Catego__3A81B327">
     <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />

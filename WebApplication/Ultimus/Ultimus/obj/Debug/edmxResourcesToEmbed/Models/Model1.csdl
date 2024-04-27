@@ -19,6 +19,7 @@
     <Property Name="ProductRating" Type="Int32" />
     <Property Name="CategoryID" Type="Int32" />
     <NavigationProperty Name="Category" Relationship="Self.FK__Products__Catego__3A81B327" FromRole="Products" ToRole="Categories" />
+    <Property Name="ProductImageURL" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
   </EntityType>
   <Association Name="FK__Products__Catego__3A81B327">
     <End Role="Categories" Type="Self.Category" Multiplicity="0..1" />

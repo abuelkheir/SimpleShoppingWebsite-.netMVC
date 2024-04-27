@@ -50,6 +50,8 @@ D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\roslyn\vbc.exe.config
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\roslyn\vbc.rsp
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\roslyn\VBCSCompiler.exe
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\roslyn\VBCSCompiler.exe.config
+D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\EntityFramework.dll
+D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\EntityFramework.SqlServer.dll
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\Microsoft.Web.Infrastructure.dll
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\System.Web.Helpers.dll
@@ -58,6 +60,8 @@ D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\System.Web.Razor.dll
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\System.Web.Webpages.Deployment.dll
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\System.Web.Webpages.dll
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\System.Web.Webpages.Razor.dll
+D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\EntityFramework.xml
+D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\EntityFramework.SqlServer.xml
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\System.Web.Razor.xml
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\System.Web.Webpages.xml
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\System.Web.Webpages.Deployment.xml
@@ -65,12 +69,7 @@ D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\System.Web.Webpages.Raz
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\System.Web.Helpers.xml
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\System.Web.Mvc.xml
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.csproj.AssemblyReference.cache
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.csproj.CoreCompileInputs.cache
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.csproj.CopyComplete
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.dll
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.pdb
-D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\EntityFramework.dll
-D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\EntityFramework.SqlServer.dll
-D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\EntityFramework.xml
-D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\EntityFramework.SqlServer.xml

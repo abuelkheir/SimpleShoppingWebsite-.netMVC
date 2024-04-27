@@ -20,6 +20,7 @@ namespace Ultimus.Models
         public Nullable<decimal> ProductPrice { get; set; }
         public Nullable<int> ProductRating { get; set; }
         public Nullable<int> CategoryID { get; set; }
+        public string ProductImageURL { get; set; }
     
         public virtual Category Category { get; set; }
     }
