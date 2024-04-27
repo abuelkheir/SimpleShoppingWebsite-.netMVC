@@ -7,20 +7,30 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using Ultimus.Models;
-public class HomeController : Controller
+
+namespace Ultimus.Controllers
 {
-    private UltimusEntities db = new UltimusEntities();
-
-    // GET: Home
-    public ActionResult Index(int? categoryID)
+    public class HomeController : Controller
     {
-        IQueryable<Product> products = db.Products.Include(p => p.Category);
+        private UltimusEntities db = new UltimusEntities();
 
-        if (categoryID.HasValue)
+        // GET: Home
+        public ActionResult Index(int? categoryID)
         {
-            products = products.Where(p => p.CategoryID == categoryID);
-        }
+            // Set the default category ID to 1 (Laptop)
+            int defaultCategoryID = 1;
 
-        return View(products.ToList());
+            // If no category ID is provided, default to the defaultCategoryID
+            if (!categoryID.HasValue)
+            {
+                categoryID = defaultCategoryID;
+            }
+
+            // Retrieve products for the specified category
+            IQueryable<Product> products = db.Products.Include(p => p.Category)
+                                                        .Where(p => p.CategoryID == categoryID);
+
+            return View(products.ToList());
+        }
     }
 }
