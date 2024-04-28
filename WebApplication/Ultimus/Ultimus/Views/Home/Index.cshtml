@@ -54,7 +54,21 @@
                                     <p class="card-text">@product.ProductDescription</p>
                                 </div>
                                 <div class="card-footer">
-                                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                                  
+
+
+                                    @for (int i = 1; i <= 5; i++)
+                                    {
+                                        if (i <= product.ProductRating)
+                                        {
+                                            <small class="filled-star">&#9733;</small>
+                                        }
+                                        else
+                                        {
+                                            <small class="empty-star">&#9734;</small>
+                                        }
+                                    }
+
                                 </div>
                             </div>
                         </div>
