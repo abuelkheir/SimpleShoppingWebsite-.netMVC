@@ -70,7 +70,7 @@ D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\System.Web.Helpers.xml
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\System.Web.Mvc.xml
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.csproj.CoreCompileInputs.cache
-D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.csproj.CopyComplete
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.dll
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.pdb
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.csproj.AssemblyReference.cache
+D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.csproj.Up2Date
