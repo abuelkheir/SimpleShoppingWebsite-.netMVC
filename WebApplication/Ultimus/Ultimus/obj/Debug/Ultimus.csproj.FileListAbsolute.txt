@@ -73,4 +73,4 @@ D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.csproj.Co
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.dll
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.pdb
 D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.csproj.AssemblyReference.cache
-D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.csproj.Up2Date
+D:\Ultimus\First Task\WebApplication\Ultimus\Ultimus\obj\Debug\Ultimus.csproj.CopyComplete
