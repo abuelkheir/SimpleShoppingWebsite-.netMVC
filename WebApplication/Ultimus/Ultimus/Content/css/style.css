@@ -18,8 +18,14 @@ html {
   position: relative;
   min-height: 100%;
 }
+
+carousel-image {
+    width: 900px;
+    height: 350px;
+}
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
 }
+

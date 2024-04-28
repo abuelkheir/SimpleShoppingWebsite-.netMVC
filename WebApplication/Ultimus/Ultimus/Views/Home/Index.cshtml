@@ -13,6 +13,7 @@
     <link href="~/Content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/Content/css/style.css" rel="stylesheet" />
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
@@ -53,11 +54,11 @@
                             <li data-target="#carouselExampleIndicators" data-slide-to="@i" class="@((i == 0) ? "active" : "")"></li>
                         }
                     </ol>
-                    <div class="carousel-inner" role="listbox">
+                    <div class="carousel-inner carousel-image" role="listbox">
                         @for (int i = 0; i < Model.Count; i++)
                         {
                             <div class="carousel-item @((i == 0) ? "active" : "")">
-                                <img class="d-block img-fluid" src="@Url.Content(@Model[i].ProductImageURL)" alt="Slide @(i + 1)">
+                                <img class="d-block img-fluid " src="@Url.Content(@Model[i].ProductImageURL)" alt="Slide @(i + 1)">
                             </div>
                         }
                     </div>
